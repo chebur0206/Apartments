@@ -39,6 +39,7 @@ h2 {
 }
 a {
     text-decoration: none;
+    transition: all .3s ease 0s;
 }
 .wrapper {
     width: 70vw;
@@ -227,6 +228,7 @@ div.pros__item:last-child::after {
     border: 1px solid #fff;
     padding: 2vh 0;
     cursor: pointer;
+    transition: all .3s ease 0s;
 }
 .district__blog-text {
     margin-top: 8vh;
@@ -314,7 +316,7 @@ div.pros__item:last-child::after {
     display: flex;
     flex-direction: column;
 }
-.footer__menu a, .footer__info a {
+.footer__menu div, .footer__info div {
     margin-bottom: 2vh;
 }
 .footer__email {
@@ -326,35 +328,36 @@ div.pros__item:last-child::after {
 .footer__icons i {
     font-size: 1.75rem;
     margin-right: 1vw;
+    transition: all 0.5s ease 0s;
 }
 /***Hover block***/
 i.fa-youtube:hover {
     color: rgb(255, 0, 0);
     text-shadow: 0 0 20px rgb(255, 0, 0);
-    transition: all 0.3s ease;
+    transition: all 0.3s ease 0s;
 }
 i.fa-vk:hover {
     color: rgb(55, 4, 194);
     text-shadow: 0 0 20px rgb(55, 4, 194);
-    transition: all 0.3s ease;
+    transition: all 0.3s ease 0s;
 }
 i.fa-facebook-f:hover {
     color: rgb(0, 132, 255);
     text-shadow: 0 0 20px rgb(0, 132, 255);
-    transition: all 0.3s ease;
+    transition: all 0.3s ease 0s;
 }
 i.fa-instagram:hover {
     color: rgb(201, 50, 138);
     text-shadow: 0 0 20px rgb(201, 50, 138);
-    transition: all 0.3s ease;
+    transition: all 0.3s ease 0s;
 }
 a:not(.fab):hover {
     color: rgb(119, 111, 111);
     text-shadow: 0 0 10px rgb(119, 111, 111);
-    transition: all 0.3s ease;
+    transition: all 0.3s ease 0s;
 }
 .form__button:hover {
     font-size: 1.1rem;
     box-shadow: 0 0 20px rgb(128, 124, 124);
-    transition: all 0.3s ease;
+    transition: all 0.3s ease 0s;
 }

@@ -16,6 +16,18 @@
     html,body {
         font-size:20px
     }
+    div.pros__item:last-child::after {
+        font-size: 20rem;
+    }
+    .apartment__gallery::after {
+        font-size: 20rem;
+    }
+    .movie::after {
+        font-size: 20rem;
+    }
+    .map::after {
+        font-size: 20rem;
+    }
 }
 /*1369-1600*/
 @media screen and (max-width: 1600px) {
@@ -129,9 +141,6 @@
         border-radius: 50px;
         margin: 2vh 0 2vh;
     }
-    .header__menu a:hover {
-        
-    }
     .header__menu a:not(:last-child) {
        margin-left: 2vw;
     }
@@ -187,6 +196,7 @@
         display: none;
         margin-top: 2vh;
     }
+}
 /*481-768*/
 @media screen and (max-width: 768px) {
     .district__form {
@@ -198,7 +208,6 @@
     .header__contact_geo {
         margin-bottom: 2vh;
     }
-    
 }
 /*0-480*/
 @media screen and (max-width: 480px) {
@@ -213,10 +222,8 @@
         font-size: 2rem;
         line-height: 2rem;
     }
-    .pros__item:not(:last-child) {
-        flex: 0 1 100%;
-        margin-left: 5vw;
-        margin-bottom: 5vh;
+    .pros__item {
+        flex: 0 1 40%;
     }
     .pros__container {
         margin-top: 10vh;
@@ -224,5 +231,11 @@
     }
     .district__container {
         padding: 15vh 0 15vh;
+    }
+    .footer__menu-text>div {
+        margin-bottom: 1vh;
+    }
+    .district__blog {
+        flex: 0 1 100%;
     }
 }
